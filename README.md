@@ -7,6 +7,8 @@ Api para a escola ALF
 ## URI de aluno
  controla chamadas para Aluno tipo GET, POST, PUT, DELETE
  
+ Exemplo: http://127.0.0.1:5000/api/aluno
+ 
  GET: params -> id:? onde: 0  = todos order id, 
                            -1 = todos order nome
                            ? = valr numerico indicado o id desejado
@@ -23,7 +25,9 @@ Api para a escola ALF
 
     
 ## URI de prova
- controla chamadas para Aluno tipo GET, POST, PUT, DELETE
+ controla chamadas para Prova tipo GET, POST, PUT, DELETE
+ 
+ Exemplo: http://127.0.0.1:5000/api/prova
  
  GET: params -> id:? onde ? é o valor do id desejado
  
@@ -39,9 +43,11 @@ Api para a escola ALF
 
     
 ## URI de resposta       
- controla chamadas para Aluno tipo PUT - exclusivamente para inclusão
+ controla chamadas para Resposta tipo PUT - exclusivamente para inclusão
  
- PUT: body -> JSON do aluno para Insert no DB
+Exemplo: http://127.0.0.1:5000/api/resposta
+ 
+  PUT: body -> JSON do aluno para Insert no DB
               exemplo: { ?????????????????????? }
               retorno do ID gerado ou mesnsagem de erro
     
