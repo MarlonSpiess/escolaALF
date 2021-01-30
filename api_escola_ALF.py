@@ -201,8 +201,8 @@ def request_aprovados():
 #####################################################################
 
 if __name__ == '__main__':
-    help(request_aluno)
-    help(request_prova)
-    help(request_resposta)
+    # help(request_aluno)
+    # help(request_prova)
+    # help(request_resposta)
     app.run(debug=True, port=5000)
 

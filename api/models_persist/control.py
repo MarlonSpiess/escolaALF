@@ -11,7 +11,7 @@ from flask import jsonify
 def conexao():
     try:
         path = os.path.dirname(os.path.abspath(__file__))
-        db = os.path.join(path, '..\data\escolaALF.db')
+        db = os.path.join(path, '..', 'data', 'escolaALF.db')
 
         print('open db', path, db)
 
